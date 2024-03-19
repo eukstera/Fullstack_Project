@@ -15,7 +15,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-// get all users
+// get all users haha
 Route::get('user',[UserController::class,'getAllUser']);
 // get user by id
 Route::get('user/id/{id}',[UserController::class,'getUser']);
